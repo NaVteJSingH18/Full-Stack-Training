@@ -1,3 +1,4 @@
+
 #parent{
     width: 40%;
     height: 450px;
@@ -5,6 +6,7 @@
     border-radius: 5px;
     margin: auto;
     text-align: center;
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*DVVHn4dmzb0tC7qhgEGEmg@2x.jpeg"); 
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 input{
@@ -18,16 +20,16 @@ width: 50%;
     cursor: pointer;
     padding: 10px;
     background-color: rgb(136, 107, 189);
-        font-size: 20px;
+    font-size: 20px;
     font-weight: 600px;
 }
 #btn:hover{
-    background-color: blue;
+    background-color: silver;
     font-size: 16px;
     font-weight: 500;
 }
 input:focus{
-    background-color: forestgreen;
+    background-color: silver;
 }
 
 

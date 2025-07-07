@@ -79,7 +79,6 @@ body {
     align-items: center;
 }
 .numpad {
-    height: ;
     display: grid;
     grid-template-columns: repeat(4, 4fr);
     margin-left: 0;
