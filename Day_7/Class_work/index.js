@@ -1,7 +1,6 @@
 // data structure
 //array
 //object
-//
 // let arr = [1, 2, 3, 4, 5,"pankaj", true, false , null, undefined];
 // console.log(arr[arr.length - 1]);
 // arr.push("manish");
@@ -25,20 +24,19 @@
 //             1:"PPS",
 //             2:"FS",
 //             3:["SE","Flat"],
-                
 //         }
 //     },
 //     college:"RB",
 //     myFunction: function(){
 //         console.log(this);
-//         // let a= 10;
-//         // let b= 20;
-//         // return a + b;
+//         let a= 10;
+//         let b= 20;
+//         return a + b; 
 //     }
 // }
 // console.log(obj.subject);
-// console.log(obj["name"]);
-// console.log(obj["age"]) ;
+// console.log(obj.name);
+// console.log(obj.age) ;
 // console.log(obj.subject.specialization[3][0]);
 // let out= obj.myFunction();
 // console.log(out);
@@ -65,24 +63,23 @@
 //     console.log(i);
 //     i=i+1;
 // }
-// str="kamal";
-// let n=str.length;
+let str="kamal";
+let n=str.length;
 // for(let i =n-1;i>=0;i--){
 //     console.log(str[i]);
-
 // }
 // let n=10;
-// for(let i=0;i<n;i+0.5){
-//     console.log(i);
-// }
+for(let i=0;i<n;i++){
+    console.log(str[i]);
+}
 // for(let num of str){
 //     console.log(num);
 // }
-let obj={
-    name:"Versha",
+// let obj={
+//     name:"Versha",
     // batch:"FS",
     // age:19,
-}
+// }
 // for (let key in obj) {
 //     if (typeof(obj[key]) == 'string') {
 //         console.log(obj[key]);
