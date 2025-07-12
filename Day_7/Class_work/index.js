@@ -63,15 +63,15 @@
 //     console.log(i);
 //     i=i+1;
 // }
-let str="kamal";
-let n=str.length;
+// let str="kamal";
+// let n=str.length;
 // for(let i =n-1;i>=0;i--){
 //     console.log(str[i]);
 // }
 // let n=10;
-for(let i=0;i<n;i++){
-    console.log(str[i]);
-}
+// for(let i=0;i<n;i++){
+//     console.log(str[i]);
+// }
 // for(let num of str){
 //     console.log(num);
 // }

@@ -101,23 +101,14 @@
 // }
 
 // myPromise()
-
-
-
-
-
-
-
 const myPromise = async() =>{
     const response = await fetch("https://fakestoreapi.in/api/products")
-
     const res = await response.json()
     const data = res.products;
     showData(data);
 
     // console.log(res)
     // console.log(res.products)
-    
 }
 
 myPromise()
@@ -125,13 +116,13 @@ myPromise()
 async function showData(data){
     // console.log(data);
 
-    data.forEach((element) => {
+   data.forEach((element,index) => {
         // console.log(element);
         const parent = document.getElementById("parent");
         
         const h2 = document.createElement("h2")
         h2.innerText = element.brand;
-
+        
         const img = document.createElement("img")
         img.src = element.image;
 
@@ -149,7 +140,7 @@ async function showData(data){
 
         const p4 = document.createElement("p")
         p4.innerText = element.discount;
-
+        p4.style.color = "red"                                                                                                                      
         const productDiv = document.createElement("div");
         productDiv.append(h2,img,p1,p2,p3,p4)
 
@@ -157,6 +148,5 @@ async function showData(data){
 
         parent.append(productDiv)
         
-    })
-    
+    })    
 }
