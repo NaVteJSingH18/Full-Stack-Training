@@ -172,7 +172,7 @@ let debounceTimer;
 
 function renderProducts(arr) {
     productsContainer.innerHTML = "";
-    document.querySelector("loader-container").style.display = "none"
+    document.querySelector(".loader-container").style.display = "none"
 
     arr.forEach((el, index) => {
         let productBox = document.createElement("div");
@@ -269,10 +269,3 @@ setTimeout(() => {
 function cartPage() {
     window.location.href = "cart.html";
 }
-// function addToCart(ele){
-//     localStorage.setItem("cartData",JSON.stringify(ele))
-// }
-// function getDataFromStorage(){
-//     let data = JSON.parse(localStorage.getItem("cartData"))
-//     console.log(data);
-// }
