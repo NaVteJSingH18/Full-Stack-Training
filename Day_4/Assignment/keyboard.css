@@ -1,0 +1,272 @@
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: grid;
+    grid-auto-flow: column;
+}
+.keys1 {
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    height: 25px;
+    width: 50px;
+    border-radius: 10%;
+    margin: 2px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+.keys2 {
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    margin: 2px;
+}
+
+.updown {
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    height: 25px;
+    width: 50px;
+    border-radius: 10%;
+}
+
+.backspace {
+    width: 110px;
+}
+
+.tab {
+    width: 70px;
+}
+
+.capslock {
+    width: 80px;
+}
+
+.enter {
+    width: 100px;
+}
+
+.shift {
+    width: 120px;
+}
+
+.space {
+    width: 320px;
+}
+
+.alt {
+    width: 50px;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: row;
+
+    background: white;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.numpad {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    margin-left: 0;
+    margin-top: 23px;
+    margin-bottom: 30px;
+}
+
+.numpad-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(6, 50px);
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.numpad-key {
+    border: 1px solid black;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    margin: 2px;
+    background: white;
+
+    
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+
+}
+
+
+.numpad-key.numlock {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.numpad-key.divide {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.numpad-key.multiply {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.numpad-key.subtract {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.numpad-key.seven {
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.numpad-key.eight {
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.numpad-key.nine {
+    grid-row: 3;
+    grid-column: 3;
+}
+
+.numpad-key.plus {
+    grid-row: 3 / span 2;
+    grid-column: 4;
+    height: 106px;
+}
+
+.numpad-key.four {
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.numpad-key.five {
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.numpad-key.six {
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.numpad-key.one {
+    grid-row: 5;
+    grid-column: 1;
+}
+
+.numpad-key.two {
+    grid-row: 5;
+    grid-column: 2;
+}
+
+.numpad-key.three {
+    grid-row: 5;
+    grid-column: 3;
+}
+
+.numpad-key.enter {
+    grid-row: 5 ;
+    grid-column: 4;
+    height: 106px;
+}
+
+.numpad-key.zero {
+    grid-row: 6;
+    grid-column: 1 ;
+    width: 106px;
+    margin-bottom: 4px;
+}
+
+.numpad-key.dot {
+    grid-row: 6;
+    grid-column: 3;
+    margin-bottom: 4px;
+}
+.numpad-key.home {
+    grid-row: 1;
+    grid-column: 1;
+}
+.numpad-key.end {
+    grid-row: 1;
+    grid-column: 2;
+}
+.numpad-key.pgup {
+    grid-row: 1;
+    grid-column: 3;
+}
+.numpad-key.pgdn {
+    grid-row: 1;
+    grid-column: 4;
+}
+.numpad-key.home,
+.numpad-key.end,
+.numpad-key.pgup,
+.numpad-key.pgdn {
+    height: 25px;
+    margin-top: 15px;
+}
+.numpad-key.zero {
+    margin-bottom: 4px;
+}
+.numpad-key {
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+ 
+}
+.numpad-key {
+    border: 1px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    margin: 2px;
+    background: white;
+}
+.numpad-kayfirstrow{
+    border: 1px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 50px;
+    border-radius: 10%;
+    margin: 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    background: white;
+}
+.numpad-key.numpad-zero {
+    width: 106px;
+   margin-bottom: 4px;
+}
+
+.numpad-key.numpad-enter {
+    height: 106px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 4px;
+}
