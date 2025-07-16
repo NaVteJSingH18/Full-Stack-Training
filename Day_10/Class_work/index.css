@@ -9,16 +9,24 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     width: 350px;
     margin-right: 20px;
+=======
+    width: 200px;
+    margin-right: 10px;
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
 }
 
 #navbar>nav>ul:hover{
     cursor: pointer;
 }
+<<<<<<< HEAD
 #navbar>nav>ul>li:hover{
     color: black;
 }
+=======
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
 
 .product-box{
     border: 1px solid gray;
@@ -93,7 +101,10 @@ input, select{
     border-left: 6px solid #3498db;
     /* border-radius: 50%; */
     animation: spin 1s linear infinite, glow 0.5s alternate-reverse infinite  ;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
 }
 /* Keyframes for rotation */
 @keyframes spin {
@@ -114,6 +125,7 @@ input, select{
 @keyframes bounce {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-30px); }
+<<<<<<< HEAD
 }
                                                                                                              
                                                                                                              
@@ -133,3 +145,6 @@ input, select{
                                                                                                              
                                                                                                              
                                                                                                              
+=======
+}
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856

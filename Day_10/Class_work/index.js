@@ -169,6 +169,10 @@ let cart = JSON.parse(localStorage.getItem("CartData")) || [];
 
 let debounceTimer;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
 function renderProducts(arr) {
     productsContainer.innerHTML = "";
     document.querySelector(".loader-container").style.display = "none"
@@ -178,13 +182,21 @@ function renderProducts(arr) {
         productBox.className = "product-box";
 
         let heading = document.createElement("h3");
+<<<<<<< HEAD
         heading.innerText = `Category:${el.category}`;
+=======
+        heading.innerText = el.category;
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
 
         let img = document.createElement("img");
         img.src = el.image;
 
         let name = document.createElement("p");
+<<<<<<< HEAD
         name.innerText = `Name: ${el.name}`;
+=======
+        name.innerText = el.name;
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
 
         let price = document.createElement("p");
         price.innerText = `Price: ${el.price}`;
@@ -215,7 +227,11 @@ function handleSearch() {
 }
 
 function handleSort() {
+<<<<<<< HEAD
     let sortedProducts = [data];
+=======
+    let sortedProducts = [...data];
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
     let sortBy = sortSelect.value;
 
     if (sortBy === "priceLowHigh") {
@@ -227,7 +243,11 @@ function handleSort() {
     } else if (sortBy === "ratingLowHigh") {
         sortedProducts.sort((a, b) => a.rating - b.rating);
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
     renderProducts(sortedProducts);
 }
 
@@ -267,4 +287,8 @@ setTimeout(() => {
 
 function cartPage() {
     window.location.href = "cart.html";
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856

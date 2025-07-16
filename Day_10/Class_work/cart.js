@@ -25,6 +25,7 @@ function showData(data) {
         name.innerText = el.name;
 
         let price = document.createElement("p");
+<<<<<<< HEAD
         price.innerText = `Price: ${el.price}`;
 
         let rating = document.createElement("p");
@@ -45,6 +46,19 @@ function showData(data) {
             deleteFun(el, index);
         })
         productBox.append(heading, img, name, price, rating, button, buy);
+=======
+        price.innerText = el.price;
+
+        let rating = document.createElement("p");
+        rating.innerText = el.rating;
+
+        let button = document.createElement("button");
+        button.innerText = "Delete";
+        button.addEventListener("click", () => {
+            deleteFun(el, index);
+        })
+        productBox.append(heading, img, name, price, rating, button);
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
         document.getElementById("products").append(productBox);
     });
 }
@@ -54,6 +68,7 @@ function deleteFun(el, index) {
     console.log(deletedCartData)
     localStorage.setItem("CartData", JSON.stringify(CartData));
     showData(CartData);
+<<<<<<< HEAD
 }
 
 function buyFun(el, index) {
@@ -65,3 +80,6 @@ function buyFun(el, index) {
 // function PurchasePage() {
 //     window.location.href = "Purchase.html";
 // } 
+=======
+}
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856

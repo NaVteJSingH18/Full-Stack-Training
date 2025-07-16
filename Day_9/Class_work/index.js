@@ -1,7 +1,10 @@
 // Promise
 
+<<<<<<< HEAD
 const os = require("os");
 
+=======
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
 // const myPromise = () =>{
 //     // const response = fetch("api")
 //     const response = fetch("https://fakestoreapi.in/api/products")
@@ -123,7 +126,11 @@ async function showData(data){
         const parent = document.getElementById("parent");
         
         const h2 = document.createElement("h2")
+<<<<<<< HEAD
         h2.innerText =` Brand: ${element.brand}`;
+=======
+        h2.innerText = element.brand;
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
         
         const img = document.createElement("img")
         img.src = element.image;
@@ -151,5 +158,9 @@ async function showData(data){
         parent.append(productDiv)
         
     })    
+<<<<<<< HEAD
 }console.log(os.hostname());
 
+=======
+}
+>>>>>>> 12fb206f3842bb7aab24f530a34a3fc59b4fd856
