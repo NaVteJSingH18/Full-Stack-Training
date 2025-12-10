@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00663d; /* Carlsberg green */
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.age-check-container {
+  max-width: 500px;
+}
+
+.logo {
+  
+  height: 70px;
+  
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.btn-group {
+  margin: 30px 0;
+}
+
+.btn-group button {
+  padding: 15px 30px;
+  margin: 0 10px;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-group button:hover {
+  background-color: white;
+  color: #00663d;
+}
+
+.remember {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+}

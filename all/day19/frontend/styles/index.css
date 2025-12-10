@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #f5f5dc;
+}
+
+/* Header */
+.navbar {
+  background-color:rgba(0, 128, 105, 0.271);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar img {
+  height: 70px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar ul li {
+  display: inline;
+}
+.navbar ul li a {
+  text-decoration: none;
+    color:rgb(221, 2, 56)
+}
+
+.navbar ul li a:hover {
+    color:limegreen
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+.hero h1 {
+  font-size: 3rem;
+  max-width: 400px;
+}
+.hero img {
+  width: 500px;
+}
+
+/* CTA Buttons */
+.cta-buttons {
+  margin-top: 20px;
+}
+.cta {
+  background-color: #00ff99;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.cta:hover {
+  background-color: #00cc77;
+}
+.cta.secondary {
+  background-color: transparent;
+  border: 2px solid #00ff99;
+  color: #00ff99;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  background-color: #111;
+  padding: 50px 0;
+}
+.feature {
+  text-align: center;
+  width: 200px;
+}
+.feature h3 {
+  color: #00ff99;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 50px;
+  background-color: #000;
+}
+/* .product-card {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+} */
+ .product-card {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6); /* semi-transparent text */
+}
+
+.product-card h4 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7); /* Transparent name */
+}
+
+.product-card p {
+  color: rgba(255, 255, 255, 0.4); /* Transparent price */
+  font-size: 1rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Newsletter */
+.newsletter {
+  background-color: #111;
+  text-align: center;
+  padding: 50px;
+}
+.newsletter input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #00ff99;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333;
+}
+.snappack-video {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px; 
+   height: 400px;;
+  width: 700px; 
+}
+
+.snappack-video video {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+

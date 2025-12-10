@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Age Verification</title>
+  <link rel="stylesheet" href="./styles/mainpage.css" />
+</head>
+<body>
+  <div class="age-check-container">
+    <img src="https://i.pinimg.com/1200x/f0/83/23/f08323675bac1469ee27436562657629.jpg" alt="Carlsberg Logo" class="logo" />
+    <h1>ARE YOU 18 YEARS OR OLDER?</h1>
+    <div class="btn-group">
+      <button onclick="denyAccess()">Not yet</button>
+      <button onclick="verifyAge()">Yes</button>
+    </div>
+    <label class="remember">
+      <input type="checkbox" id="rememberMe" />
+      Remember me on this device (don’t tick if this is a shared computer)
+    </label>
+  </div>
+
+  <script src="./scripts/mainpage.js"></script>
+</body>
+</html>
