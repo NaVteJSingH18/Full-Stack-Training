@@ -1,1 +1,1 @@
-we
+Math.random() * (max-min+1)
