@@ -1,1 +1,2 @@
-let createddate=new Date("2025-11-10") 
+let mytimestamp=Date.now()
+// console.log(mytimestamp)
