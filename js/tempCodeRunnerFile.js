@@ -1,1 +1,1 @@
-console.log(heros)
+name:"navtej"
