@@ -1,1 +1,1 @@
-console.log(arey2)
+console.log(heros)
