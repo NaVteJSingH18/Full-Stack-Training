@@ -1,1 +1,1 @@
-name:"navtej"
+console.log(obj.greeting())
