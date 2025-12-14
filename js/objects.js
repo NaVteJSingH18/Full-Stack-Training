@@ -31,4 +31,4 @@ obj.greeting=function greetings(){
     console.log(`hey ,${this.name}`)
 }
 // console.log(obj.greeting)
-console.log(obj.greeting())
+// console.log(obj.greeting())

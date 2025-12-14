@@ -1,1 +1,1 @@
-console.log(obj.greeting())
+console.log(arrobj)
