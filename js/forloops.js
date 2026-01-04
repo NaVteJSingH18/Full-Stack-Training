@@ -60,5 +60,24 @@ const superlang=[
   }
 ]
 superlang.forEach((element )=>{
-  console.log(element.lang)
+  // console.log(element.lang)
 });
+//filter
+let lgn=superlang.filter( (lln)=> lln.lang==='english'||lln.abb==='pun')
+// console.log(lgn)
+let lgn2=[];
+superlang.forEach( (lggn)=> { if(lggn.lang==='punjabi'){
+ lgn2.push(lggn)
+}}  
+ )
+//  console.log(lgn2)
+
+//maps
+ const numbs=[1,2,3,4,5,6,7,8,9,10]
+ let nmbs=numbs.map((numb)=>numb+1)
+ console.log(nmbs)
+ 
+ nmbs=numbs.map((numb)=>numb*10) 
+numbs.map((numb)=>numb+1)
+numbs.filter((numb)=>numb>=41)
+console.log(nmbs)
