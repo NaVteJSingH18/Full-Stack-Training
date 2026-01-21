@@ -3,7 +3,7 @@ console.log(this)
 let myObj = {
     name: "Name",
     text: "LOL",
-    myCall: function(){
+    myCall: ()=>{
         console.log(this)
         const log = function(){
             console.log(this)
