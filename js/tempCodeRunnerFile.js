@@ -1,1 +1,1 @@
-console.log(arrobj)
+console.log(user1)
