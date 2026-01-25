@@ -79,8 +79,11 @@ superlang.forEach( (lggn)=> { if(lggn.lang==='punjabi'){
  
  nmbs=numbs.map((numb)=>numb*10) 
 numbs.map((numb)=>numb+1)
-numbs.filter((numb)=>numb>=41)
+
+
+const filterNumbers=numbs.filter((numb)=>numb>=41)
 // console.log(nmbs)
+console.log(filterNumbers);
 
 //reduce
 const arr2=[1,2,3,4,5]
@@ -107,4 +110,4 @@ const shoppingcart=[
   }
 ]
 const totalprice=shoppingcart.reduce((acc,item)=>acc+item.coursePrice,0)
-console.log(`total cost is ${totalprice}`)
+// console.log(`total cost is ${totalprice}`)
